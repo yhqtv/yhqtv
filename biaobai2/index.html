@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="GBK">
+    <title>yhqtv.com</title>
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+<body>
+<div class="container">
+    <div class="row col-md-3"></div>
+    <div class="row col-md-6">
+        <div class="row question">
+            <div class="col-md-6 col-xs-12">
+                <p style="line-height: 50px;font-size: 20px;">“小姐姐，我观察你很久了”</p>
+                <p style="line-height: 50px;font-size: 20px;">做我女朋友好不好？</p>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <img src="images/0060lm7Tly1fsl1f2622lg307v07v75y.jpg" alt="" style="height: 200px;">
+            </div>
+        </div>
+        <div class="row question" style="margin-top: 20px;">
+            <div class="col-md-6 col-xs-6" style="text-align: center;">
+                <button type="button" class="btn btn-success" style="width: 80%" id="no">好</button>
+            </div>
+            <div class="col-md-6 col-xs-6" style="text-align: center;">
+                <button type="button" class="btn btn-danger" style="width: 80%" id="ok">不好</button>
+            </div>
+        </div>
+        <div class="col-md-12 col-xs-12 hide" id="success">
+            <img src="images/060lm7Tly1fsl1fwwas7g30bt0btal0.jpg" alt="" style="width: 100%;">
+        </div>
+    </div>
+
+    <div class="row col-md-3"></div>
+
+</div>
+<script>
+    var i=1;
+    var ok=false;
+    $(document).ready(function(){
+        $("#no").click(function(){
+            alert("真的吗？你答应了？");
+            $(".question").addClass('hide');
+            $("#success").removeClass('hide');
+            ok=true;
+        });
+        $("#ok").click(function(){
+            switch(i){
+                case 1:
+                    alert("工资上交");
+                    break;
+                case 2:
+                    alert("家务全包");
+                    break;
+                case 3:
+                    alert("房产证写你的名字");
+                    break;
+				case 4:
+                    alert("保大");
+                    break;
+                default:
+                    alert("答应我吧");
+            }
+            i++;
+        });
+    });
+</script>
+</body>
+</html>

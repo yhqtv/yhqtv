@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>复利计算器</title>
+</head>
+<body>
+	<h1>复利计算器</h1>
+
+	<form word-break: break-all; word-wrap:break-word;>
+		<label for="principal">本金：</label>
+		<input type="number" id="principal" name="principal" required>
+
+		<label for="interest">年利率（%）：</label>
+		<input type="number" id="interest" name="interest" required>
+
+		<label for="compound-period">复利周期：</label>
+		<select id="compound-period" name="compound-period">
+			<option value="12">月复利</option>
+			<option value="365">日复利</option>
+			<option value="1">年复利</option>
+		</select>
+
+		<label for="term">投资期限：</label>
+		<input type="number" id="term" name="term" required>
+		<select id="term-unit" name="term-unit">
+			<option value="year">年</option>
+			<option value="month">月</option>
+			<option value="day">日</option>
+		</select>
+
+		<button type="button" onclick="calculate()">计算</button>
+	</form>
+
+	<p id="result"></p>
+
+	<script>
+		function calculate() {
+			// 获取用户输入的本金、年利率、复利周期和投资期限
+			var principal = document.getElementById("principal").value;
+			var interest = document.getElementById("interest").value;
+			var compoundPeriod = document.getElementById("compound-period").value;
+			var term = document.getElementById("term").value;
+			var termUnit = document.getElementById("term-unit").value;
+
+			// 将年利率转换为每期利率和期数
+			var rate = interest / 100;
+			if (compoundPeriod === "12") {
+				rate /= 12;
+			} else if (compoundPeriod === "365") {
+				rate /= 365;
+			}
+			var periods;
+			if (termUnit === "year") {
+				periods = term * 12;
+			} else if (termUnit === "month") {
+				periods = term;
+			} else if (termUnit === "day") {
+				periods = term / 30; // 假设每月30天
+			}
+
+			// 计算复利总额
+			var total = principal * Math.pow(1 + rate / compoundPeriod, compoundPeriod * periods);
+
+			// 将结果显示在页面上
+			document.getElementById("result").innerHTML = "复利总额为：" + total.toFixed(2);
+		}
+	</script>
+</body>
+</html>

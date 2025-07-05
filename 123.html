@@ -1,0 +1,217 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charSet="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta name="referrer" content="never">
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>快抖社-快手&抖音热门小姐姐在线播放</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="http://hovertree.com/texiao/js/4/hvtcss4.css" rel="stylesheet" type="text/css" />
+    <script src="./hvtjs4.js"></script>
+
+    <script data-ad-client="ca-pub-5108709900469745" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body>
+
+    <div class="video" id="video">
+        <div class="top-nav" id="top_nav">
+            <span class="top-nav-item">
+                <a href="http://www.kuaidoushe.com" target="view_window">首页</a>
+            </span>
+              <span class="top-nav-item">
+                <a href="about.html" target="view_window">顶部AD1特惠50元/月</a>
+            </span>
+             <span class="top-nav-item">
+                <a href="about.html" target="view_window">顶部AD2特惠50元/月</a>
+            </span>
+             <span class="top-nav-item">
+                <a href="about.html" target="view_window">顶部AD3特惠50元/月</a>
+            </span>
+            <span class="top-nav-item">
+                <a href="about.html" target="view_window">关于本站</a>
+            </span>
+        </div>
+        <div class="video-div">
+            <div id="main">
+                <video id="player" src="video.php" controls controlsList="nodownload" webkit-playsinline playsinline autoplay="autoplay"></video>
+            </div>
+            <div id="buttons">
+                <button id="switch">连续: 开</button>
+                <button id="next">播放下一个</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer" id="footer">
+        <div class="fbtm">
+            <div class="clearfix" style="color:#fff">
+                <span class="left">友情链接:</span>
+                <ul class=" link clearfix" style="display:inline-block">
+                    <a href="http://www.kuaidoushe.com" target="_blank">快抖社</a>
+                    <a href="http://www.fulizhidu.top" target="_blank">福利论坛</a>
+                </ul>
+            </div>
+            <p class="p mt10">
+
+                <p class="p" style="color:#fff">
+                    <span>客服QQ：</span>
+                    <span style="color:#ff6600">1573000474</span>
+
+                </p>
+            </p>
+        </div>
+    </div>
+    <div class="hvtcenter" id="hvtcenter">
+        <!-- 代码 开始 -->
+        <div class="float_layer_hovertree" id="hovertree_float_layer" style="z-index:10001;">
+            <h2>
+                <b>福利公众号推荐：福利共享圈</b>
+                <a id="btn_min" href="javascript:;" class="min" target="_self"></a>
+                <a id="btn_close" href="javascript:;" class="close" target="_self"></a>
+            </h2>
+            <div class="content">
+                <div class="wrap">
+                    <a href="http://www.kuaidoushe.com" target="_blank">
+                        <img src="https://ae01.alicdn.com/kf/Ha39920630b7943299d0c04d46844b724q.jpg" width="300"
+                            height="250" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        (function(window, document) {
+            function IsPC() {
+                var userAgentInfo = navigator.userAgent;
+                var Agents = ["Android", "iPhone",
+                    "SymbianOS", "Windows Phone",
+                    "iPad", "iPod"
+                ];
+                var flag = true;
+                for (var v = 0; v < Agents.length; v++) {
+                    if (userAgentInfo.indexOf(Agents[v]) > 0) {
+                        flag = false;
+                        break;
+                    }
+                }
+                return flag;
+            }
+            var ispc = IsPC();
+            var calHeight = function() {
+                if (ispc) {
+                    var contentHeight = document.body.clientHeight - 150;
+                } else {
+                    var contentHeight = document.body.clientHeight - 40;
+                }
+                var videoH = get('video');
+
+                var footerH = get('footer').offsetHeight
+                videoH.style.height = (document.body.clientHeight - footerH - 40) + 'px'
+                var topNh = get('top_nav').offsetHeight
+                var calVideoWidth = contentHeight * 9 / 16;
+                var player = document.getElementById('player')
+                var footer = get('footer')
+                if (player) {
+                    player.addEventListener('canplay', function() {
+                        footer.style.marginTop = (260) + 'px';
+                    })
+                    player.style.maxHeight = contentHeight + 'px'
+                    player.style.maxWidth = calVideoWidth + 'px'
+
+                }
+            }
+            if (top != self) {
+                window.top.location.replace(self.location.href);
+            }
+
+            var get = function(id) {
+                return document.getElementById(id);
+            }
+            var bind = function(element, event, callback) {
+                return element.addEventListener(event, callback);
+            }
+            var auto = true;
+            var player = get('player');
+
+            var randomm = function() {
+                player.src = 'video.php?_t=' + Math.random();
+                player.play();
+            }
+            bind(get('next'), 'click', randomm);
+            bind(player, 'error', function() {
+                randomm();
+            });
+            bind(get('switch'), 'click', function() {
+                auto = !auto;
+                this.innerText = '连续: ' + (auto ? '开' : '关');
+            });
+            bind(player, 'ended', function() {
+                if (auto) randomm();
+            });
+            calHeight()
+
+            document.onkeydown = function(e) {
+                console.log(e)
+                if (e.keyCode == '40') {
+                    randomm()
+                }
+            }
+
+            if (!ispc) {
+                var hvtcenter = get('hvtcenter')
+                if (hvtcenter) {
+                    hvtcenter.style.display = 'none'
+                }
+            }
+        })(window, document);
+
+        var goto = function(type) {
+            var homeBtn = document.getElementById("home")
+            var aboutusBtn = document.getElementById("about_us")
+            var messageBtn = document.getElementById("message_btn")
+            var video = document.getElementById('video')
+            var usDiv = document.getElementById('us')
+            var messageDiv = document.getElementById('message')
+            switch (type) {
+                case 'home':
+                    video.style.display = 'block';
+                    usDiv.style.display = 'none';
+                    messageDiv.style.display = 'none';
+                    homeBtn.className = 'nav-item active';
+                    aboutusBtn.className = 'nav-item cancel';
+                    messageBtn.className = 'nav-item cancel';
+                    break;
+                case 'aboutus':
+                    video.style.display = 'none';
+                    usDiv.style.display = 'block';
+                    messageDiv.style.display = 'none';
+                    aboutusBtn.className = 'nav-item active';
+                    homeBtn.className = 'nav-item cancel';
+                    messageBtn.className = 'nav-item cancel';
+                    break;
+                case 'message':
+                    video.style.display = 'none';
+                    usDiv.style.display = 'none';
+                    messageDiv.style.display = 'block';
+                    messageBtn.className = 'nav-item active';
+                    aboutusBtn.className = 'nav-item cancel';
+                    homeBtn.className = 'nav-item cancel';
+                    break;
+            }
+
+        }
+    </script>
+    <center>
+<script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1278900797'%3E%3C/span%3E%3Cscript src='https://s9.cnzz.com/stat.php%3Fid%3D1278900797%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+   </center>
+</body>
+
+</html>
