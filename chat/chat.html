@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聊天室 Chatroom</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            width: 90%;
+            max-width: 800px;
+            height: 90vh; /* 聊天室满屏显示 */
+            display: flex;
+            flex-direction: column;
+        }
+        .title {
+            text-align: center;
+            margin: 20px 0;
+            color: #333;
+        }
+        #username-group {
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #username-input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+        #set-username-button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #6c63ff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        #set-username-button:hover {
+            background-color: #5245d5;
+        }
+        #messages {
+            flex: 1; /* 聊天消息区域占据剩余空间 */
+            overflow-y: auto;
+            border-top: 1px solid #ccc;
+            padding: 10px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        .message {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #f5f5f5;
+        }
+        .message .meta {
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .message .meta .info {
+            display: flex;
+            align-items: center;
+        }
+        .message .meta .info span {
+            margin-right: 10px;
+        }
+        .message .username {
+            font-weight: bold;
+            margin-right: 5px;
+        }
+        .message .content {
+            word-wrap: break-word;
+            margin-top: 5px;
+        }
+        .input-group {
+            display: flex;
+            align-items: center;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+        }
+        .input-group input[type="text"] {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-right: 10px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+        .input-group input[type="text"]:focus {
+            outline: none;
+            border-color: #6c63ff;
+        }
+        .input-group button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #6c63ff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .input-group button:hover {
+            background-color: #5245d5;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+                border-radius: 0;
+                height: 100vh; /* 小屏幕下满屏显示 */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">欢迎来到聊天室 Welcome to Chatroom</h1>
+        <div id="username-group" class="input-group">
+            <input type="text" id="username-input" placeholder="输入用户名 Enter your username">
+            <button id="set-username-button">设置 Set</button>
+        </div>
+        <div id="messages"></div>
+        <div class="input-group">
+            <input type="text" id="message-input" placeholder="输入消息或口令 Type message or command">
+            <button id="send-button">发送 Send / 执行 Execute</button>
+        </div>
+    </div>
+
+    <script>
+        const messagesDiv = document.getElementById('messages');
+        const messageInput = document.getElementById('message-input');
+        const sendButton = document.getElementById('send-button');
+        const usernameInput = document.getElementById('username-input');
+        const setUsernameButton = document.getElementById('set-username-button');
+
+        let username = localStorage.getItem('username') || '';
+
+        function fetchMessages() {
+            fetch('get_messages.php')
+                .then(response => response.text())
+                .then(data => {
+                    messagesDiv.innerHTML = data;
+                    messagesDiv.scrollTop = messagesDiv.scrollHeight; // Auto-scroll to the bottom
+                });
+        }
+
+        setUsernameButton.addEventListener('click', () => {
+            username = usernameInput.value.trim();
+            if (username) {
+                localStorage.setItem('username', username);
+                usernameInput.value = '';
+                alert(`用户名已设置为 Username set to ${username}`);
+            } else {
+                alert('请输入有效的用户名 Please enter a valid username.');
+            }
+        });
+
+        sendButton.addEventListener('click', () => {
+            const inputText = messageInput.value.trim();
+            if (!username) {
+                alert('请先设置用户名 Please set your username first.');
+                return;
+            }
+            if (!inputText) {
+                alert('请输入消息或口令 Please enter a message or command.');
+                return;
+            }
+
+            // Determine if it's a message or command
+            if (inputText === 'yhqtv') {
+                // Execute command to clear messages
+                fetch('clear_messages.php', {
+                    method: 'POST',
+                }).then(() => {
+                    fetchMessages();
+                    alert('所有聊天信息已清空 All chat messages have been cleared.');
+                });
+            } else {
+                // Send message
+                fetch('send_message.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                    body: `username=${encodeURIComponent(username)}&message=${encodeURIComponent(inputText)}`
+                }).then(() => {
+                    messageInput.value = '';
+                    fetchMessages();
+                });
+            }
+        });
+
+        messageInput.addEventListener('keydown', event => {
+            if (event.key === 'Enter') {
+                sendButton.click();
+            }
+        });
+
+        // Fetch messages every 1 second
+        setInterval(fetchMessages, 1000);
+
+        // Initial fetch
+        fetchMessages();
+
+        // Load initial username if available
+        if (username) {
+            alert(`您当前的用户名是 Your current username is ${username}`);
+        }
+    </script>
+</body>
+</html>

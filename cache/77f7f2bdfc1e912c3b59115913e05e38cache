@@ -1,0 +1,146 @@
+a:3:{s:4:"time";i:1751591584;s:6:"expire";i:10;s:5:"value";s:22558:"<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="renderer" content="webkit"><meta name="force-rendering" content="webkit"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="App-Config" content="fullscreen=yes,useHistoryState=yes,transition=yes"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="yes" name="apple-touch-fullscreen"><meta content="telephone=no,email=no" name="format-detection"><meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><meta http-equiv="pragram" content="no-cache"><meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate"><meta http-equiv="expires" content="0">    <title>优惠券TV</title>
+    <meta name="keywords" content="优惠券TV,鑫淼的世界,优惠券,鑫淼科技,鑫淼,优惠券TV"/>
+    <meta name="description" content="亲爱的，欢迎每天来选购超值优惠商品哦~每天都会准时更新"/>
+    <meta id="mid" name="mid" content="1226556"/>
+    <link href="" rel="icon">
+            <script>
+            var standId = 1226556;
+            var getCookie = function(name){
+                var arr,reg=new RegExp("(^| )"+name+"=([^;]*)(;|$)");
+                if(arr=document.cookie.match(reg))
+                return unescape(arr[2]);
+                else
+                return null;
+            };
+            var MtaH5={
+                clickShare:function(){},
+                clickStat:function(){},
+                hack:function(){},
+                pgv:function(){}
+            };
+            var _mtac = {"performanceMonitor":1,"senseQuery":1};
+            // (function() {
+            //     var mta = document.createElement("script");
+            //     mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+            //     // mta.setAttribute("name", "MTAH5");
+            //     /*mta.setAttribute("sid", "500628419");
+            //     mta.setAttribute("cid", "500628420");*/
+            //     mta.setAttribute("sid", "500625431");
+            //     mta.setAttribute("cid", "500625432");
+            //     var s = document.getElementsByTagName("script")[0];
+            //     s.parentNode.insertBefore(mta, s);
+            // })(); 
+            // DTK统计代码
+            (function() {
+                   window.DTKsatc = {
+                        // 容错处理
+                        eventStat: function () { },
+                        restart: function () { }
+                    };
+            //     var script = document.createElement("script");
+            //     var time = new Date(),FullYear = time.getFullYear(),Month = time.getMonth(),getDate = time.getDate();
+            //     script.src = "https://public.ffquan.cn/satc/dtksatc.js?v=20250704091000";
+            //     script.setAttribute("name", "DTKSATC");
+            //     script.setAttribute("tid", "dtk-cms-1226556"); // 站点id
+            //     script.setAttribute("uid", getCookie("user_id")); // 登录用户id
+            //     
+            //     var s = document.getElementsByTagName("script")[0];
+            //     s.parentNode.insertBefore(script, s); 
+            })(); 
+        </script>
+        <script src="https://cmsstaticnew.dataoke.com//wap_new/lib/md5.js?v=202207191014"></script>
+    <script>
+        var $mid = 1226556;
+        var $config = {"site_id":1226556,"siteName":"优惠券TV","pc_icon":"","logo":"","beianhao":"台ICP备1230","custom_script":"","pc_index_lead_switch":"1","mobile":"","qq":"","weixin_account":"xmkjQQ","qrcode":"http:\/\/yhqtv.com\/images\/wxgzh.jpg","title":"优惠券TV","keywords":"优惠券TV,鑫淼的世界,优惠券,鑫淼科技,鑫淼","descript":"亲爱的，欢迎每天来选购超值优惠商品哦~每天都会准时更新","browser_buy_master":"1","browser_buy_slave":"1","wx_buy_master":"1","wx_buy_slave":"1","wb_buy_master":"1","wb_buy_slave":"0","qq_buy_master":"0","qq_buy_slave":"0","tongji":"","tongji2":null,"wap_template_id":"2","help_buy_switch":false,"goods_look_switch":false,"kz_switch":"0","yuming":"yhqtv.cn","leftTxt":"","micro_switch":1,"tiktok_switch":"0","detail_switch":1,"mt_switch":"0","vip_switch":"0","user_mall_type":"0","pc_template_id":"3","is_site_stop":"0","is_site_default":"0","site_name":"优惠券TV","custom_script_title":"","custom_script_url":"","is_commnum":0,"is_tmall":0,"set_commnum":"","tmall":0,"is_filter":0,"jd_come_switch":0,"jd_come_type":1,"jd_commission_switch":0,"jd_commission_limit":0,"jd_coupon_switch":0,"pdd_commission_switch":0,"pdd_commission_limit":0,"pdd_coupon_switch":0,"shield_words":"游戏,账号,游戏账号,二次元等身抱枕,等身抱枕,欧派抱枕,金黄色葡萄球菌,旗帜,徽章,破解,游戏破解,解除,游戏解除,英雄联盟代练,王者,马云祖师爷,国防服役纪念章,等功,服役,服役纪念章,国防,南京同仁堂,儿童智能手表,禹州粉条,暗送,暗赠,军工章,军功章,抗美援朝纪念章,自抽号,独自升级","wpwd_new_template":"1復制( CZ3457 #无符号淘口令#)打开tao寳抢购\/","wpwd_template":"1( CZ3457 #无符号淘口令#)\/","taobao":{"uid":1226556,"pid":"mm_35576316_23048103_78064006","is_auth":1,"auth_id":679864,"tb_pid":1941411},"jd":{"uid":1226556,"app_key":"","app_secret":"","key":"","expire":"","union_id":"","is_show":0,"pid":""},"pdd":{"uid":1226556,"pid":"8386490_54137058","is_open":"0","is_old":1,"is_auth":1,"auth_id":5264,"pdd_pid":3773},"mt":{"uid":1226556,"pid":"","is_open":0},"vip":{"uid":1226556,"pid":"","is_open":0},"authInfo":{"tb_auth_id":"679864","tb_pid":"1941411","jd_auth_id":"3088","jd_pid":"0","pdd_auth_id":"5264","pdd_pid":"3773","mt_auth_id":"0","mt_pid":"0","vip_auth_id":"0","vip_pid":"0"},"baidu_id":""}
+        
+    </script>
+    <style>.isIe{
+      display: none;  position: fixed;left: 0;top: 0;background: rgba(0, 0, 0, 0.7);color: #fff;font-size: 14px;z-index: 999;width: 100%;text-align: center;height: 25px;
+      line-height: 25px;
+    }
+    .isIe a{
+      color: #fff;
+      text-decoration: underline;
+      
+    }
+    .isIe a:hover{
+      color: #f1f1f1;
+    }</style><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-0386e6a6.ee94a535.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-045e219c.08b7c6ab.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-04720cb1.158654c4.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-08f7903d.36ee75d9.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-0c2c2596.d933b628.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-12c8a808.e8b58ee4.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-16616ecc.47976d07.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-1a0adcaf.6e1ae22e.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-1e96e488.d0534182.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-21679e3f.44716851.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-252c0d61.da4a0dcf.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-278412b8.8e8bfc1c.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-29a63e7b.ba4a7760.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-33612200.4cf8bb59.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-41446494.2b22022f.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-4be9612c.0a68c8f3.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-4e0e3008.88da33c1.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-50e594b5.27915c30.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-59c65fa4.80ea4249.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-63e140da.f986e69c.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-6903d2ec.fd379662.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-70a54478.8e211bda.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-8a92eca0.4231bce5.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-92b90414.a24afa2b.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-94674bc0.e7851d19.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-a6849aca.90a86aaf.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-b7dfc484.742c0014.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-ba91dc82.9cb33a82.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-ce2918c2.8573cb06.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/chunk-ce44bc28.1b0468b1.css" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-0386e6a6.33d3a278.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-045e219c.fd34d20f.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-04720cb1.9ede91fb.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-08f7903d.5420e3bc.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-0c2c2596.fa4008be.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-12c8a808.10246682.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-16616ecc.ab04a89f.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-1a0adcaf.600583da.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-1e96e488.de0ce344.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-21679e3f.7b0098ee.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-252c0d61.2258379e.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-278412b8.e3c519ab.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-29a63e7b.13220bbe.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-33612200.b49900f1.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-41446494.0d800380.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-4be9612c.557e8782.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-4e0e3008.4d94c0f9.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-50e594b5.cc131cb4.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-59c65fa4.3ed430c8.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-63e140da.07f302bb.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-6903d2ec.d1f6e8c2.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-70a54478.80c72523.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-8a92eca0.a0103f92.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-92b90414.517b5750.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-94674bc0.a2b8f2de.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-a6849aca.759dd3fe.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-b7dfc484.ebf15156.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-ba91dc82.244e3ab0.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-ce2918c2.6a6996ff.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-ce44bc28.0ab97883.js" rel="prefetch"><link href="https://cmsstaticv2.ffquan.cn/pc/css/app.d3511798.css" rel="preload" as="style"><link href="https://cmsstaticv2.ffquan.cn/pc/js/app.37a2c060.js" rel="preload" as="script"><link href="https://cmsstaticv2.ffquan.cn/pc/js/chunk-vendors.e83cf3b1.js" rel="preload" as="script"><link href="https://cmsstaticv2.ffquan.cn/pc/css/app.d3511798.css" rel="stylesheet"></head><body><div id="app"><div style="opacity: 0">
+    <h1><img src="" alt="优惠券TV" /></h1>
+    <nav>
+        <a href="?r=index/index"></a>
+        <a href="?r=l"></a>
+        <a href="?r=p"></a>
+        <a href="?r=nine"></a>
+        <a href="?r=ddq"></a>
+        <a href="?r=every/half"></a>
+        <a href="?r=realtime/zsz"></a>
+    </nav>
+   <ul class="hph_1">
+            <li class="attr_list">
+                <!--                循环开始-->
+                                        <dl>
+                            <dt class="tit"><img class="ico" src="https://img.alicdn.com/imgextra/i2/2053469401/O1CN01VG4gop2JJhu9yo5dR-2053469401.png">服饰鞋包</dt>
+                            <dd>
+                                                                    <a data-dtk-satc="{desc:'女装',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;cids=1&amp;site=classify" style="color: #FE2E54" target="_blank">女装</a>
+                                                                    <a data-dtk-satc="{desc:'男装',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;cids=9&amp;site=classify" style="" target="_blank">男装</a>
+                                                                    <a data-dtk-satc="{desc:'内衣',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;cids=10&amp;site=classify" style="color: #FE2E54" target="_blank">内衣</a>
+                                                                    <a data-dtk-satc="{desc:'配饰',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;cids=12&amp;site=classify" style="" target="_blank">配饰</a>
+                                                                    <a data-dtk-satc="{desc:'鞋品',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;cids=5&amp;site=classify" style="" target="_blank">鞋品</a>
+                                                                    <a data-dtk-satc="{desc:'箱包',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;cids=11&amp;site=classify" style="" target="_blank">箱包</a>
+                                                                    <a data-dtk-satc="{desc:'春夏穿搭',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=春夏穿搭&amp;site=classify" style="color: #FE2E54" target="_blank">春夏穿搭</a>
+                                                                    <a data-dtk-satc="{desc:'半身裙',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=半身裙&amp;site=classify" style="" target="_blank">半身裙</a>
+                                                            </dd>
+                        </dl>
+                                        <dl>
+                            <dt class="tit"><img class="ico" src="https://img.alicdn.com/imgextra/i2/2053469401/O1CN01HDhZXR2JJhuAOUVjh-2053469401.png">美食</dt>
+                            <dd>
+                                                                    <a data-dtk-satc="{desc:'休闲零食',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=休闲零食&amp;site=classify" style="color: #FE2E54" target="_blank">休闲零食</a>
+                                                                    <a data-dtk-satc="{desc:'无辣不欢',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=无辣不欢&amp;site=classify" style="" target="_blank">无辣不欢</a>
+                                                                    <a data-dtk-satc="{desc:'早餐',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=早餐&amp;site=classify" style="" target="_blank">早餐</a>
+                                                                    <a data-dtk-satc="{desc:'生鲜果蔬',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=生鲜果蔬&amp;site=classify" style="" target="_blank">生鲜果蔬</a>
+                                                                    <a data-dtk-satc="{desc:'酒水饮品',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=酒水饮品&amp;site=classify" style="color: #FE2E54" target="_blank">酒水饮品</a>
+                                                            </dd>
+                        </dl>
+                                        <dl>
+                            <dt class="tit"><img class="ico" src="https://img.alicdn.com/imgextra/i3/2053469401/O1CN01xbEVSm2JJhuBVC5Pb-2053469401.png">美妆</dt>
+                            <dd>
+                                                                    <a data-dtk-satc="{desc:'隔离防晒',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=隔离防晒&amp;site=classify" style="" target="_blank">隔离防晒</a>
+                                                                    <a data-dtk-satc="{desc:'口红',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=口红&amp;site=classify" style="color: #FE2E54" target="_blank">口红</a>
+                                                                    <a data-dtk-satc="{desc:'保湿水乳',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=保湿水乳&amp;site=classify" style="" target="_blank">保湿水乳</a>
+                                                                    <a data-dtk-satc="{desc:'面膜',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=面膜&amp;site=classify" style="" target="_blank">面膜</a>
+                                                                    <a data-dtk-satc="{desc:'美白套装',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=美白套装&amp;site=classify" style="color: #FE2E54" target="_blank">美白套装</a>
+                                                            </dd>
+                        </dl>
+                                        <dl>
+                            <dt class="tit"><img class="ico" src="https://img.alicdn.com/imgextra/i3/2053469401/O1CN01kv7JlR2JJhu3ZtUVN-2053469401.png">居家日用</dt>
+                            <dd>
+                                                                    <a data-dtk-satc="{desc:'换季收纳',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=换季收纳&amp;site=classify" style="color: #FE2E54" target="_blank">换季收纳</a>
+                                                                    <a data-dtk-satc="{desc:'洗发护发',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=洗发护发&amp;site=classify" style="" target="_blank">洗发护发</a>
+                                                                    <a data-dtk-satc="{desc:'纸巾',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=纸巾&amp;site=classify" style="color: #FE2E54" target="_blank">纸巾</a>
+                                                                    <a data-dtk-satc="{desc:'防护用品',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=防护用品&amp;site=classify" style="" target="_blank">防护用品</a>
+                                                                    <a data-dtk-satc="{desc:'家庭清洁',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=家庭清洁&amp;site=classify" style="color: #FE2E54" target="_blank">家庭清洁</a>
+                                                            </dd>
+                        </dl>
+                                        <dl>
+                            <dt class="tit"><img class="ico" src="https://img.alicdn.com/imgextra/i4/2053469401/O1CN01nM4UX22JJhuB6Qun3-2053469401.png">数码办公</dt>
+                            <dd>
+                                                                    <a data-dtk-satc="{desc:'厨房家电',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=厨房家电&amp;site=classify" style="" target="_blank">厨房家电</a>
+                                                                    <a data-dtk-satc="{desc:'电脑外设',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=电脑外设&amp;site=classify" style="color: #FE2E54" target="_blank">电脑外设</a>
+                                                                    <a data-dtk-satc="{desc:'充电宝',name:'CmsPcFirstCidEvent'}" href="?r=l&amp;kw=充电宝&amp;site=classify" style="" target="_blank">充电宝</a>
+                                                            </dd>
+                        </dl>
+                                <!--                循环结束-->
+            </li>
+        </ul>
+</div><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="auto" viewBox="0 0 414 224" version="1.1"><title>编组</title><g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="统一骨架图" transform="translate(0.000000, -98.000000)" fill="#F5F5F5"><g id="编组" transform="translate(0.000000, 98.000000)"><rect id="矩形" x="12" y="55" width="390" height="18"></rect><rect id="矩形备份-8" x="12" y="7" width="390" height="38"></rect><rect id="矩形备份-4" x="12" y="143" width="390" height="10"></rect><rect id="矩形备份-2" x="12" y="103" width="390" height="10"></rect><rect id="矩形备份-5" x="12" y="183" width="390" height="10"></rect><rect id="矩形备份" x="12" y="83" width="390" height="10"></rect><rect id="矩形备份-6" x="12" y="163" width="390" height="10"></rect><rect id="矩形备份-3" x="12" y="123" width="390" height="10"></rect><rect id="矩形备份-7" x="12" y="203" width="310" height="10"></rect></g></g></g></svg></div><div id="isIe" class="isIe"></div><script>!(function(){
+      var isIe = !!window.ActiveXObject || "ActiveXObject" in window;
+      if(isIe){
+        document.getElementById('isIe').innerHTML = '您正在使用的浏览器版本过低，可能出现页面异常，建议使用其他浏览器如（<a href="https://www.google.cn/intl/zh-CN/chrome/" target="_blank">Chrome</a>,<a href="https://www.apple.com.cn/safari/" target="_blank">Safari</a>,<a href="https://browser.360.cn/ee/mac/index.html" target="_blank">360浏览器/极速模式</a>）我们将能为您提供更好的服务。'
+        document.getElementById('isIe').style.display = 'block';
+        var script = document.createElement("script");
+        script.src = "https://cdn.polyfill.io/v2/polyfill.min.js"; 
+        var s = document.getElementsByTagName("head")[0];
+        s.parentNode.insertBefore(script, s);
+      }
+    })()</script><script src="https://public.ffquan.cn/lib/vue/vue@2.6.11.min.js"></script><script src="https://public.ffquan.cn/lib/vue/vue-router-query@3.5.3/vue-router.min.js?v=20220117"></script><script src="https://public.ffquan.cn/lib/md5.min.js"></script><script src="https://cmsstaticv2.ffquan.cn/pc/js/chunk-vendors.e83cf3b1.js"></script><script src="https://cmsstaticv2.ffquan.cn/pc/js/app.37a2c060.js"></script></body></html>";}
